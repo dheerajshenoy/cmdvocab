@@ -14,11 +14,23 @@ $ sudo apt install python3-pip && sudo apt install python-pip
 
 Copy & paste this command:
 ```
-$ pip3 install requests && pip3 install bs4 && pip install urllib3 && pip install http 
+pip3 install requests && pip3 install bs4 && pip install urllib3 && pip install http 
 ```
-# How to use 
-Goto to the cmdvocab folder, open a terminal window, copy & paste the following codes
+### How to install script 
+<ol>
+  <li>Clone this git repository</li>
+  <li>Open the folder cmdvocab</li>
+  <li>Open a terminal in this folder</li>
+  <li>Copy-paste the following commands in the terminal:</li>
+</ol>
+
 ```
-$ 
+sudo mkdir $HOME/.cmdvocab && cp cmdvocab.py $HOME/.cmdvocab && cp dheeraj.py $HOME/.cmdvocab && cd $HOME/.cmdvocab && sudo mv cmdvocab.py cmdvocab && chmod +777 cmdvocab && cd && echo "alias cmdvocab='$HOME/.cmdvocab/./cmdvocab'" >> ~/.bash_aliases && source ~/.bash_aliases && echo "Successfully installed cmdvocab"  
+
 ```
+### How to use 
+Type **cmdvocab** in a terminal, and you are presented with a help menu. You'll know how to use the program from there.
+
+### NOTE
+Use the argument -v or --verbose before the word to be searched
 
