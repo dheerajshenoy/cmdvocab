@@ -5,7 +5,7 @@ Dictionary CLI program written in Python
 These are the list of libraries to install using pip3 and pip. Most of these are already in your system by default.
 For **ubuntu**,copy & paste this command:
 ```
-$ sudo apt install python3-pip && sudo apt install python-pip
+sudo apt install python3-pip && sudo apt install python-pip
 ```
 - requests
 - http
