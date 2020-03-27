@@ -5,7 +5,7 @@ Dictionary CLI program written in Python
 These are the list of libraries to install using pip3 and pip. Most of these are already in your system by default.
 For **ubuntu**,copy & paste this command:
 ```
-sudo apt install python3-pip && sudo apt install python-pip
+sudo apt install python3-pip && sudo apt install python-pip && sudo apt install mpv
 ```
 - requests
 - http
@@ -23,7 +23,12 @@ pip3 install requests && pip3 install bs4 && pip install urllib3 && pip install 
   <li>Open a terminal in this folder</li>
   <li>Copy-paste the following commands in the terminal:</li>
 </ol>
+ 
+ ### Clone the git repository:
 
+```
+git clone https://www.github.com/dheerajshenoy/cmdvocab.git
+```
 ```
 sudo mkdir $HOME/.cmdvocab && sudo cp cmdvocab.py $HOME/.cmdvocab && sudo cp dheeraj.py $HOME/.cmdvocab && sudo cd $HOME/.cmdvocab && sudo mv cmdvocab.py cmdvocab && chmod +777 cmdvocab && cd && echo "alias cmdvocab='$HOME/.cmdvocab/./cmdvocab'" >> ~/.bash_aliases && source ~/.bash_aliases && echo "Successfully installed cmdvocab"  
 
