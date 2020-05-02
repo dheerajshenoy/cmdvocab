@@ -4,7 +4,7 @@ import sys,getopt
 import urllib 
 import requests
 import http
-import dheeraj as imp 
+import header as imp 
 from bs4 import BeautifulSoup
 import os 
 from os import system 
