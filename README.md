@@ -29,9 +29,9 @@ pip3 install requests && pip3 install bs4 && pip install urllib3 && pip install 
 ```
 git clone https://www.github.com/dheerajshenoy/cmdvocab.git
 ```
+### Run the install script 
 ```
-sudo mkdir $HOME/.cmdvocab && sudo cp cmdvocab.py $HOME/.cmdvocab && sudo cp dheeraj.py $HOME/.cmdvocab && sudo cd $HOME/.cmdvocab && sudo mv cmdvocab.py cmdvocab && sudo chmod +777 cmdvocab && cd && echo "alias cmdvocab='$HOME/.cmdvocab/./cmdvocab'" >> ~/.bash_aliases && source ~/.bash_aliases && echo "Successfully installed cmdvocab"  
-
+chmod +x install.sh && ./install.sh 
 ```
 ### How to use 
 Type **cmdvocab** in a terminal, and you are presented with a help menu. You'll know how to use the program from there.
@@ -39,3 +39,7 @@ Type **cmdvocab** in a terminal, and you are presented with a help menu. You'll 
 ### NOTE
 Use the argument -v or --verbose before the word to be searched
 
+### Uninstall
+
+#### Run the uninstall.sh script 
+chmod +x uninstall.sh && /.uninstall.sh 
